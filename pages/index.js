@@ -1,10 +1,10 @@
 import Head from "next/head";
 
 import {
+  grommet,
   Anchor,
   Avatar,
   Box,
-  Button,
   Footer,
   Grommet,
   Heading,
@@ -12,28 +12,15 @@ import {
   Paragraph,
 } from "grommet";
 
-import {
-  CircleInformation,
-  Grommet as GrommetIcon,
-  Github,
-  Slack,
-} from "grommet-icons";
-/**
- *
- * @returns Removed css/className
- * Replaced html tags with grommet components
- */
+import { Github, Slack } from "grommet-icons";
 
 export default function Home() {
   const gravatarLink =
     "//s.gravatar.com/avatar/b7fb138d53ba0f573212ccce38a7c43b?s=80";
 
   return (
-    <Grommet full>
+    <Grommet theme={grommet} full>
       <Box
-        // pad={{ horizontal: "xlarge", top: "large" }}
-        // align="center"
-        fill
         flex
         margin={{ horizontal: "auto" }}
         width={{ max: "xlarge" }}
@@ -45,7 +32,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <Box role="main" pad={{ vertical: "large" }}>
+        <Box flex role="main" pad={{ vertical: "large" }}>
           <Heading>
             Welcome to <Anchor href="https://nextjs.org">Next.js</Anchor> and{" "}
             <Anchor href="https://v2.grommet.io">Grommet!</Anchor>
