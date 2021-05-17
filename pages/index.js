@@ -121,7 +121,7 @@ export default function Home() {
             />
             <Anchor
               a11yTitle="Github repository"
-              href="https://github.com/grommet/interns-2021"
+              href="https://github.com/grommet/nextjs-boilerplate"
               icon={<Github color="black" />}
               target="_blank"
               rel="noreferrer noopener"
