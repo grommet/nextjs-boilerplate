@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dc28bfe3-33a1-4cdf-88cb-d129a4cec3d5/deploy-status)](https://app.netlify.com/sites/practical-montalcini-0d3675/deploys)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 For the deployment and introduction visit https://practical-montalcini-0d3675.netlify.app/
