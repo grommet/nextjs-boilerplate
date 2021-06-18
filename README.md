@@ -2,7 +2,7 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-For the deployment and introduction visit https://practical-montalcini-0d3675.netlify.app/
+For the deployment and introduction visit the application website https://practical-montalcini-0d3675.netlify.app/
 
 ## Getting Started
 
