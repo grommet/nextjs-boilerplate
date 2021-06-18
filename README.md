@@ -4,6 +4,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 For the deployment and introduction visit the application website https://practical-montalcini-0d3675.netlify.app/
 
+## How to use
+
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the boilerplate:
+
+```bash
+npx create-next-app --example https://github.com/grommet/nextjs-boilerplate my-project-name
+# or
+yarn create next-app --example https://github.com/grommet/nextjs-boilerplate my-project-name
+```
+
 ## Getting Started
 
 First, run the development server:
