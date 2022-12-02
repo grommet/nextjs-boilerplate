@@ -20,7 +20,6 @@ export default function Home() {
     <Box
       flex
       margin={{ horizontal: "auto" }}
-      width={{ max: "xlarge" }}
       height={{ min: "100%" }}
       width={{ max: "xlarge" }}
     >
